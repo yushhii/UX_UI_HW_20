@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:wght@700&display=swap');
+
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: "vollkorn", serif;
+}
+
+.navbar-nav {
+    font-family: "vollkorn", serif;
+    letter-spacing: 3px;
+}
+
+/* .primary {
+    border: 2px solid #ec8548;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #ec8548;
+    font-size: 14px;
+    
+} */
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    }
+}
+
+.custombg {
+    background: black url('../UX_UI_HW_20/img/abstract.jpg');
+    background-size: cover;
+    font-family: "vollkorn", serif;
+    text-align: center;
+}
+
+.cntfirst {
+    font-family: "vollkorn", serif;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(63, 63, 63);
+    font-size: 12px;
+}
+
+.body {
+    line-height: 27px;
+    margin-left: 40px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
